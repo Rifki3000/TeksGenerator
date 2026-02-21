@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id-ID" class="light-mode">
+<!-- ==============================================
+  * TAHAP 1: HTML STRUCTURE
+  * Generator Teks Keren untuk TikTok & Social Media
+  * Versi: 1.0.0
+  * Author: Diberikan oleh Agus Slebeww 
+  * Tanggal: 21 Februari 2026
+  ============================================== -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Meta Tags SEO & Social Media -->
+  <meta name="title" content="Generator Teks Keren - 80+ Font Style untuk TikTok, IG, WA">
+  <meta name="description" content="Buat teks bio TikTok, caption IG, status WA, username game dengan 80+ gaya font unik! Copy dengan satu klik, simpan favorit, dan kustomisasi sesuka hati.">
+  <meta name="keywords" content="generator teks keren, font tiktok, font ig, teks bio unik, font unicode, generator font">
+  <meta name="author" content="Generator Teks Keren">
+  
+  <!-- Favicon & Icon -->
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="assets/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
+  
+  <!-- Font Google (Hanya untuk UI, font utama pakai Unicode) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Eksternal Resources (Hanya Font Awesome untuk Icon) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- CSS Styling -->
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Generator Teks Keren | 80+ Font Style untuk Social Media</title>
+</head>
+
+<body>
+  <!-- ==============================================
+    * HEADER & NAVBAR
+    ============================================== -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <!-- Logo & Judul -->
+      <div class="navbar-brand">
+        <i class="fas fa-font fa-2x"></i>
+        <h1 class="brand-title">
+          <span class="text-highlight">Teks</span>Keren.ID
+        </h1>
+      </div>
+      
+      <!-- Navigasi Menu -->
+      <ul class="navbar-menu">
+        <li class="nav-item">
+          <a href="#generator" class="nav-link"><i class="fas fa-home"></i> Generator</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> Tentang</a>
+        </li>
+        <li class="nav-item">
+          <a href="#tips" class="nav-link"><i class="fas fa-lightbulb"></i> Tips</a>
+        </li>
+      </ul>
+      
+      <!-- Tombol Toggle Mode & Random -->
+      <div class="navbar-actions">
+        <!-- Dark/Light Mode Toggle -->
+        <button id="mode-toggle" class="action-btn" aria-label="Ubah Mode Tampilan">
+          <i class="fas fa-moon"></i>
+          <span class="btn-text">Dark Mode</span>
+        </button>
+        
+        <!-- Random Style Button -->
+        <button id="random-style-btn" class="action-btn btn-primary" aria-label="Buat Teks dengan Style Acak">
+          <i class="fas fa-random"></i>
+          <span class="btn-text">Random Style</span>
+        </button>
+      </div>
+      
+      <!-- Hamburger Menu untuk Mobile -->
+      <button id="hamburger-toggle" class="hamburger-btn" aria-label="Buka Menu">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+    </nav>
+    
+    <!-- Mobile Menu Dropdown -->
+    <div id="mobile-menu" class="mobile-menu hidden">
+      <ul class="mobile-menu-list">
+        <li class="mobile-nav-item">
+          <a href="#generator" class="mobile-nav-link"><i class="fas fa-home"></i> Generator</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#about" class="mobile-nav-link"><i class="fas fa-info-circle"></i> Tentang</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#tips" class="mobile-nav-link"><i class="fas fa-lightbulb"></i> Tips</a>
+        </li>
+        <li class="mobile-nav-item">
+          <button id="mobile-mode-toggle" class="mobile-action-btn" aria-label="Ubah Mode Tampilan">
+            <i class="fas fa-moon"></i>
+            <span class="btn-text">Dark Mode</span>
+          </button>
+        </li>
+        <li class="mobile-nav-item">
+          <button id="mobile-random-btn" class="mobile-action-btn btn-primary" aria-label="Buat Teks dengan Style Acak">
+            <i class="fas fa-random"></i>
+            <span class="btn-text">Random Style</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ==============================================
+    * MAIN CONTENT: GENERATOR SECTION
+    ============================================== -->
+  <main id="generator" class="site-main">
+    <section class="generator-section container">
+      <!-- Judul Section -->
+      <div class="section-heading">
+        <h2>Generator Teks Keren</h2>
+        <p>80+ Gaya Font untuk Bio TikTok, Caption IG, Status WA, & Username Game!</p>
+      </div>
+      
+      <!-- Input Area & Preview -->
+      <div class="input-preview-wrapper">
+        <!-- Input Teks Area -->
+        <div class="input-area card">
+          <h3 class="card-heading"><i class="fas fa-edit"></i> Masukkan Teks Kamu</h3>
+          <div class="input-controls">
+            <!-- Input Field -->
+            <textarea 
+              id="text-input" 
+              class="text-input" 
+              placeholder="Ketik atau paste teks di sini... Contoh: Halo Dunia!" 
+              rows="4"
+              spellcheck="false"
+            ></textarea>
+            
+            <!-- Tombol Reset Input -->
+            <button id="clear-input-btn" class="btn-secondary" aria-label="Hapus Teks Input">
+              <i class="fas fa-times"></i> Bersihkan
+            </button>
+          </div>
+          
+          <!-- Preview Realtime -->
+          <div class="preview-area">
+            <h4 class="preview-heading"><i class="fas fa-eye"></i> Preview Realtime:</h4>
+            <div id="realtime-preview" class="preview-text">
+              <span class="preview-placeholder">Teks kamu akan muncul di sini!</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Quick Actions & Favorites Summary -->
+        <div class="quick-actions card">
+          <h3 class="card-heading"><i class="fas fa-star"></i> Favorit & Aksi Cepat</h3>
+          
+          <!-- Favorites Summary -->
+          <div id="favorites-summary" class="favorites-box">
+            <p class="favorites-count"><span id="fav-count">0</span> Style Favorit Tersimpan</p>
+            <button id="view-favorites-btn" class="btn-primary" aria-label="Lihat Semua Favorit">
+              <i class="fas fa-bookmark"></i> Lihat Favorit
+            </button>
+          </div>
+          
+          <!-- Search & Filter -->
+          <div class="search-filter-box">
+            <h4 class="section-subheading"><i class="fas fa-search"></i> Cari & Filter Font</h4>
+            <!-- Search Input -->
+            <div class="search-input-wrapper">
+              <i class="fas fa-search search-icon"></i>
+              <input 
+                id="font-search" 
+                type="text" 
+                class="search-input" 
+                placeholder="Cari nama atau kategori font..."
+                aria-label="Cari Font"
+              >
+              <button id="clear-search-btn" class="clear-search-btn" aria-label="Hapus Pencarian">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+            
+            <!-- Category Tabs -->
+            <div class="category-tabs-wrapper">
+              <div id="category-tabs" class="category-tabs">
+                <button class="category-tab active" data-category="all">
+                  <i class="fas fa-th"></i> Semua
+                </button>
+                <button class="category-tab" data-category="bold">
+                  <i class="fas fa-bold"></i> Bold/Italic
+                </button>
+                <button class="category-tab" data-category="doublestruck">
+                  <i class="fas fa-border-all"></i> Double-struck
+                </button>
+                <button class="category-tab" data-category="script">
+                  <i class="fas fa-pencil-alt"></i> Script/Cursive
+                </button>
+                <button class="category-tab" data-category="fraktur">
+                  <i class="fas fa-font"></i> Gothic/Fraktur
+                </button>
+                <button class="category-tab" data-category="monospace">
+                  <i class="fas fa-code"></i> Monospace
+                </button>
+                <button class="category-tab" data-category="smallcaps">
+                  <i class="fas fa-text-height"></i> Small Caps
+                </button>
+                <button class="category-tab" data-category="square">
+                  <i class="fas fa-square"></i> Square
+                </button>
+                <button class="category-tab" data-category="circle">
+                  <i class="fas fa-circle"></i> Circle
+                </button>
+                <button class="category-tab" data-category="special">
+                  <i class="fas fa-magic"></i> Khusus
+                </button>
+              </div>
+              <!-- Tombol Scroll Tabs untuk Mobile -->
+              <button id="scroll-tabs-left" class="scroll-tab-btn" aria-label="Geser Tabs ke Kiri">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button id="scroll-tabs-right" class="scroll-tab-btn" aria-label="Geser Tabs ke Kanan">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Copy All Button -->
+          <button id="copy-all-btn" class="btn-primary btn-large" aria-label="Copy Semua Style Font">
+            <i class="fas fa-copy"></i> Copy Semua Style
+          </button>
+          <p class="copy-note"><i class="fas fa-info-circle"></i> Semua teks akan dicopy ke clipboard dalam format yang terorganisir!</p>
+        </div>
+      </div>
+      
+      <!-- Font Grid Container -->
+      <div class="font-grid-section">
+        <h3 class="section-subheading">
+          <i class="fas fa-th-large"></i> Daftar Gaya Font
+          <span id="font-count-badge" class="badge">0 Style Tersedia</span>
+        </h3>
+        
+        <!-- Empty State untuk Grid -->
+        <div id="empty-grid-state" class="empty-state active">
+          <i class="fas fa-font fa-5x"></i>
+          <h4>Masukkan Teks untuk Melihat Style!</h4>
+          <p>Ketik teks di kolom input di atas untuk generate berbagai gaya font unik.</p>
+        </div>
+        
+        <!-- Empty State untuk Filter/Search -->
+        <div id="no-results-state" class="empty-state hidden">
+          <i class="fas fa-search fa-5x"></i>
+          <h4>Tidak Ada Hasil yang Ditemukan</h4>
+          <p>Coba cari dengan kata kunci lain atau ubah kategori filter.</p>
+        </div>
+        
+        <!-- Favorites Only State -->
+        <div id="favorites-only-state" class="empty-state hidden">
+          <i class="fas fa-star fa-5x"></i>
+          <h4>Style Favorit Kamu</h4>
+          <p>Tidak ada style yang disimpan sebagai favorit. Klik ikon bintang pada style yang kamu suka!</p>
+        </div>
+        
+        <!-- Font Grid -->
+        <div id="font-grid" class="font-grid hidden"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================
+    * ABOUT SECTION
+    ============================================== -->
+  <section id="about" class="about-section container">
+    <div class="card about-card">
+      <h2 class="section-heading"><i class="fas fa-info-circle"></i> Tentang Generator Teks Keren</h2>
+      <p>Website ini dibuat untuk membantu kamu membuat teks dengan gaya font unik yang kompatibel dengan semua platform social media seperti TikTok, Instagram, WhatsApp, Twitter, dan game online.</p>
+      <p>Semua gaya font menggunakan karakter Unicode standar, jadi tidak akan ada masalah tampilan di perangkat mana pun!</p>
+      <div class="about-features">
+        <h3>Fitur Utama:</h3>
+        <ul>
+          <li><i class="fas fa-check-circle text-highlight"></i> 80+ Gaya Font Beragam Kategori</li>
+          <li><i class="fas fa-check-circle text-highlight"></i> Copy dengan Satu Klik</li>
+          <li><i class="fas fa-check-circle text-highlight"></i> Simpan Style Favorit</li>
+          <li><i class="fas fa-check-circle text-highlight"></i> Mode Gelap & Terang</li>
+          <li><i class="fas fa-check-circle text-highlight"></i> Tampilan Responsif untuk Semua Perangkat</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+    * TIPS SECTION
+    ============================================== -->
+  <section id="tips" class="tips-section container">
+    <div class="card tips-card">
+      <h2 class="section-heading"><i class="fas fa-lightbulb"></i> Tips Penggunaan</h2>
+      <div class="tips-list">
+        <div class="tip-item">
+          <h3><i class="fas fa-tiktok"></i> Untuk Bio TikTok</h3>
+          <p>Pilih style yang simpel tapi menarik seperti Bold, Script, atau Small Caps agar tidak terlalu ramai dan mudah dibaca.</p>
+        </div>
+        <div class="tip-item">
+          <h3><i class="fas fa-instagram"></i> Untuk Caption Instagram</h3>
+          <p>Gunakan kombinasi style dengan emoji agar caption lebih menarik perhatian pengguna.</p>
+        </div>
+        <div class="tip-item">
+          <h3><i class="fas fa-gamepad"></i> Untuk Username Game</h3>
+          <p>Pilih style yang unik seperti Gothic/Fraktur atau Square agar username kamu berbeda dari yang lain.</p>
+        </div>
+        <div class="tip-item">
+          <h3><i class="fas fa-exclamation-triangle"></i> Catatan Penting</h3>
+          <p>Beberapa platform mungkin membatasi panjang teks atau tidak mendukung semua karakter Unicode. Selalu preview sebelum mengirim!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+    * FOOTER
+    ============================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <i class="fas fa-font fa-2x"></i>
+        <h3>TeksKeren.ID</h3>
+        <p>Generator Teks Unik untuk Semua Platform</p>
+      </div>
+      <div class="footer-links">
+        <h4>Link Berguna</h4>
+        <ul>
+          <li><a href="#
